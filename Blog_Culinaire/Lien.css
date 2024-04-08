@@ -1,0 +1,88 @@
+header .titre h2{
+    text-align: center;
+    font-size: 2em;
+}
+header .navbar{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header li a {
+    color: #000;
+    margin: 0;
+}
+section{
+    border-top:  solid 0.5px rgb(204, 200, 200);
+    border-bottom: solid 0.5px rgb(204, 200, 200) ;
+    padding: 100px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 30px;
+    font-size: 1.5em;
+    
+}
+li a:hover{
+    color: #67e004;
+}
+section h2{
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 0 auto;
+
+}
+/*img{
+    height: 400px;
+    width: 300;
+    padding: 10px;
+
+}*/
+/*section .imag{
+    height: 600px;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+/*.imag{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}*/
+.imag{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.imag  img{
+    height: 400px;
+    width: 300px;   
+}
+
+.imag .boite {
+    border: 1px solid white;
+    background: white;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+       
+}
+.imag .boite .texte{
+    font-size: 0.8em;
+    text-align: center;
+}
+
